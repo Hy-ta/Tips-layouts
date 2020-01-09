@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/custom.css">
+        <title>Sign up</title>
+    </head>
+
+    <body >
+        <!-----------------   header begin  ------------------>
+        <header class="py-4">
+            <div class="container text-center">
+                <h1> <a href="top.html"><img src="./image/logo.png" alt="logo"></a> </h1>
+            </div>
+        </header>
+        <!-----------------   header end    ------------------>
+        <!-----------------   nav bar begin  ----------------->
+        <nav class="navbar navbar-expand-md navbar-dark bg-info sticky-top">
+            <!-------------  sub conmponent  ------------------>
+            <div class="container">
+                <!--------  brand  -------------->
+                <a class="navbar-brand" href="top.html">Tips</a>
+                <!---------  changing btn  -------->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!----------  navigation  -------------------->
+                <div class="collapse navbar-collapse" id="navbar-content">
+                    <!-------  nav bar menu  -------->
+           <!-------  left side menu link to each top pages link  ----->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="top.html">Top <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                      <!---------  drop down  -------------->
+                    </ul>
+            <!-----------  right side menu :To contact page link  ----------->
+                   <ul class="navbar-nav">
+                       <li class="nav-item"><a href="contact.html" class="nav-link btn btn-info">Contact</a></li>
+                   </ul>
+                   <!------------  nav menu  ----------->
+                </div>
+            </div>
+            <!------------------  sub component  ----------------->
+        </nav>
+        <!-----------------   nav bar end  ------------------->
+
+        <!-----------------  bread crumbs  --------------------->
+       
+        <!------------------  main begin  ---------------------->
+        <main>
+            <div class="container">
+                <h2 class="my-4">Sign up</h2>
+                <p>*Please fill up all of the form</p>
+            </div>
+            <!-------------  inquire form  ----------->
+            <div class="py-3">
+                <div class="container">
+                    <h3 class="mb-3"> CREATE ACCOUNT </h3>
+                    <!----------  form  ------------->
+                    <form>
+                        <!------  name  -------->
+                        <div class="form-group row">
+                            <label for="name" class="col-md-3 col-form-label">
+                                Name <span class="badge badge-warning">must</span>
+                            </label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                        </div>
+                        <!------- mail address --------->
+                        <div class="form-group row">
+                            <label for="email" class="col-md-3 col-form-label">
+                                E-mail <span class="badge badge-warning">must</span>
+                            </label>
+                            <div class="col-md-9">
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                        </div>
+                        <!---------  reason   ---------->
+                        <fieldset class="form-group">
+                            <div class="row">
+                                <legend class="col-form-label col-md-3">
+                                    How did you find us ?
+                                </legend>
+                                <div class="col-md-9">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="questionnaire" id="radio01" value="answer1">
+                                        <label class="form-check-label" for="radio01">friends</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="questionnaire" id="radio02" value="answer2">
+                                        <label class="form-check-label" for="radio02">Website</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="questionnaire" id="radio03" value="answer3">
+                                        <label class="form-check-label" for="radio03">Magazine</label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <!-----------  confirm btn  ---------->
+                            <div class="form-group row justify-content-end">
+                                <div class="col-md-9">
+                                    <button type="submit" class="btn btn-primary">Confirm</button>
+                                </div>
+                            </div>
+                        </div>
+                    <!----------- types ------------>   
+                    </form>
+                </div>
+            </div>
+        </main>
+        <!-----------------  main end  ---------------------->
+        <!-----------------  footer begin  ------------------->
+        <footer class="py-4 bg-dark text-light">
+            <div class="container text-center">
+                <ul class="nav justify-content-center mb-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="top.html">Top</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+                <!-------------  navigaiton end  ------------>
+                <p> <small> &copy;: 2020 Tips </small></p>
+            </div>
+        </footer>
+        <!-----------------  footer end  ------------------->
+
+        <script src="./js/jquery-3.4.1.slim.min.js"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+    </body >
+</html>

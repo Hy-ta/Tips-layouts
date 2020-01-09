@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-ti-fit=no">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/custom.css">
+        <title>USER PAGE</title>
+    </head>
+       
+  <body>
+        <!-- navbarー -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+            <div class="container">
+              <a class="navbar-brand" href="top.html">
+                  <img src="./image/logo.png" width="50" height="40" class="d-inline-block align-top" alt=""></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNab" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span></button>
+    
+                <div class="collapse navbar-collapse" id="navbarNab">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="top.html">Top<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="top.html#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signup.html">Sign up</a>
+                        </li>
+                    </ul>
+                </div>
+              </div>
+            </nav>
+        <!-- /navbarー -->
+        <!-- main -->
+        <main>
+          <!-- main visual -->
+          <div class="py-4">
+              <div class="container">
+              <div id="main_visual" class="carousel slide carousel-fade" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                      <li data-target="#main_visual" data-slide-to="0" class="active"></li>
+                      <li data-target="#main_visual" data-slide-to="1"></li>
+                      <li data-target="#main_visual" data-slide-to="2"></li>
+                  </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="img-fluid" alt="First page" src="./image/wine1.jpeg">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Our work</h5>
+                        <p>Fresh wine</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img class="img-fluid" alt="First page" src="./image/wine2.jpg">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Our work</h5>
+                        <p>Fresh wine</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img class="img-fluid" alt="First page" src="./image/wine3.jpeg">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Our work</h5>
+                        <p>Fresh wine</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <a class="carousel-control-prev" href="#main_visual" role="button" data-slide="prev">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             <span class="sr-only">Prev</span>
+         </a>
+         <a class="carousel-control-next" href="#main_visual" role="button" data-slide="next">
+             <span class="carousel-control-next-icon" aria-hidden="true"></span></a>
+             <span class="sr-only">Next</span>
+       </div>
+     </div>
+    </div>
+          <!-- / main visual -->
+          <!-- content 02 -->
+          <div class="py-4">
+           <section id="about">
+               <div class="container">
+                   <div class="row mb-4">
+                       <div class="col-md-8 mb-3">
+                           <h3 class="mb-3">My Work</h3>
+                           <p>I confess now that I intend to lift Number 16’s idea of passionfruit bread and butter pudding for home consumption. The zingy, assertive fruit electrifies this confection’s dutifully wobbly, eggy depths. A cooling mango ice cream, which tastes as though it’s made with Indian Alphonso mango pulp, and a little pool of thick egg custard that delivers a further refreshing whack of passionfruit, layers brilliance upon excellence. Another dessert, dubbed “Turkish Delight” is too much for me. Soft nougat riven with toasted pistachio, cubes of baby-pink, floaty rosewater marshmallow, squares of butter-thick white chocolate mousse, a quenelle of dark chocolate ganache, sugar-dusted blood orange jelly, I’m like a child in an old-fashioned sweetie shop: I can’t decide what to have, so I’d better try it all.</p>
+                           <a href="#" class="btn btn-info"><i class="fa fa-thumbs-o-up"></i></a>
+                           <a href="#" class="btn btn btn-danger"><i class="fa fa-heart"></i></a>
+                        </div>
+                       <div class="col-md-4">
+                           <img src="./image/user4.png" alt="user logo" class="img-fluid">
+                       </div>
+                   </div>
+               </div>
+           </section>
+          </div>
+          <!-- /content 02 -->
+          <!-- content 03 -->
+          <div class="py-4">
+            <div id="menu">
+                <div class="container">
+                    <h3 class="mb-3">Event</h3>
+                    <p>Join a tour of one of the traditional wineries of Kofu, the birthplace of Japanese wine, and enjoy wine tasting and haute cuisine for lunch!</p>
+                
+                <!-- tab nav  -->
+                <div class="nav nav-tabs" id="tab-menus" role="tablist">
+                    <a class="nav-item nav-link active" id="tab-menu01" data-toggle="tab" href="#panel-menu01" role="tab" aria-controls="panel-menu01" aria-selected="true">January</a>
+                    <a class="nav-item nav-link" id="tab-menu02" data-toggle="tab" href="#panel-menu02" role="tab" aria-controls="panel-menu02" aria-selected="true">Feburary</a>
+                </div>
+
+                <div class="tab-content" id="panel-menus">
+                    <div class="tab-pane fade show active border border-top=0" id="panel-menu01" role="tabpanel" aria-labelledby="tab-menu01">
+                      <div class="row p-3">
+                          <div class="col-md-7 order-md-2">
+                              <h3 style="padding: 2rem">Winery Tour</h3>
+                              <table class="table table-striped">
+                                  <tbody>
+                                      <tr>
+                                          <th>1 ~ 10</th>
+                                          <td>AM 7:00 ~ PM 15:00</td>
+                                      </tr>
+                                      <tr>
+                                        <th>10 ~ 20</th>
+                                        <td>AM 15:00 ~ PM 18:00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>20 ~ 25</th>
+                                        <td>AM 7:00 ~ PM 15:00</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                          </div>
+                             <!-- img -->
+                          <div class="col-md-5">
+                              <img src="./image/tour1.jpeg" alt="tour" class="img-fluid">
+                          </div>
+                       </div>
+                             <!-- /img -->
+                             
+                              <!-- modal btn -->
+                              <div class="container">
+                              <button type="button" class="btn btn-info mb-2" data-toggle="modal" data-target="#modalBtn">Check</button>   
+                              <div class="modal fade" id="modalBtn" tabindex="-1" role="dialog" aria-labelledby="modalBtn" aria-hidden="true">
+                                  <div class="modal-dialog modal-dialog-centered" role="document">
+                                       <div class="modal-content">
+                                           <div class="modal-header">
+                                               <h5 class="modal-title" id="modalBtn">Winery Tour</h5>
+                                               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                   <span aria-hidden="true">&times;</span>
+                                               </button>
+                                            </div>
+                                             <div class="modal-body">
+                                                <p>Would you like to have a <a href="link1.htm">book? </a></p>
+                                             </div>
+                                             <div class="modal-footer">
+                                              <button type="button" class="btn btn-info" data-dismiss="modal">close</button>
+                                             </div>
+                                           </div>
+                                        </div>
+                                  </div>
+                                </div>
+                            </div>
+                              <!-- /modal btn -->
+
+                    <div class="tab-pane fade border border-top=0" id="panel-menu02" role="tabpanel" aria-labelledby="tab-menu02">
+                        <div class="row p-3">
+                            <div class="col-md-7 order-md-2">
+                                <h3 style="padding: 2rem">Winery Tour</h3>
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <th>1 ~ 10</th>
+                                            <td>AM 7:00 ~ PM 15:00</td> 
+                                        </tr>
+                                        <tr>
+                                            <th>11 ~ 20</th>
+                                            <td>AM 7:00 ~ PM 15:00</td> 
+                                        </tr>
+                                        <tr>
+                                            <th>21 ~ 30</th>
+                                            <td>AM 7:00 ~ PM 15:00</td> 
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- img -->
+                            <div class="col-md-5">
+                                <img src="./image/wine,feb.jpeg" alt="pic" class="img-fluid">
+                            </div>
+                        </div>
+                            <!-- /img -->
+                            <!-- modal btn2 -->
+                            <div class="container">
+                                <button type="button" class="btn btn-info mb-2" data-toggle="modal" data-target="#modal-Btn">Check</button>   
+                                <div class="modal fade" id="modal-Btn" tabindex="-1" role="dialog" aria-labelledby="modal-Btn" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                         <div class="modal-content">
+                                             <div class="modal-header">
+                                                 <h5 class="modal-title" id="modal-Btn">Winery Tour</h5>
+                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                     <span aria-hidden="true">&times;</span>
+                                                 </button>
+                                              </div>
+                                               <div class="modal-body">
+                                                  <p>Would you like to have a <a href="link1.htm">book? </a></p>
+                                               </div>
+                                               <div class="modal-footer">
+                                                <button type="button" class="btn btn-info" data-dismiss="modal">close</button>
+                                               </div>
+                                             </div>
+                                          </div>
+                                    </div>
+                                  </div>
+                              </div>
+                              <!-- /modal btn2 -->
+                    </div>            
+                </div>
+        <!-- /tab nav -->
+        </main>
+        <!-- /メイン -->
+        <!-- フッター -->
+        <footer class="py-4 bg-dark text-light">
+            <div class="container text-center">
+                <ul class="nav justify-content-center mb-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="top.html">Top</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup.html">Signup</a>
+                    </li>
+                </ul>
+                <!-------------  navigaiton end  ------------>
+                <p> <small> &copy;: 2020 Tips </small></p>
+            </div>
+        <!-- /フッター -->
+
+
+
+        <script src="./js/jquery-3.4.1.slim.min.js"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        
+    </body>
+        
+    </html>
+        
